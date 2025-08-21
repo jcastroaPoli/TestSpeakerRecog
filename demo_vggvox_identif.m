@@ -7,7 +7,7 @@ function demo_vggvox_identif(varargin)
 
 
 opts.modelPath = '' ;
-opts.gpu = 3;
+% opts.gpu = 3;
 opts.dataDir = 'testfiles/ident';
 opts = vl_argparse(opts, varargin) ;
 
